@@ -76,6 +76,10 @@ tcp_socket::tcp_socket(void)
 , m_port(0)
 , m_type(type::UNKNOWN) { __TACOPIE_LOG(debug, "create tcp_socket"); }
 
+tcp_socket::~tcp_socket(void)
+{
+  close();
+}
 //!
 //! custom ctor
 //! build socket from existing file descriptor

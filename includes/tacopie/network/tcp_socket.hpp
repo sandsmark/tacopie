@@ -53,7 +53,7 @@ public:
   //! ctor
   tcp_socket(void);
   //! dtor
-  ~tcp_socket(void) = default;
+  ~tcp_socket(void);
 
   //!
   //! custom ctor
