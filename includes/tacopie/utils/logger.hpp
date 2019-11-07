@@ -103,11 +103,6 @@ public:
   //! dtor
   ~logger(void) = default;
 
-  //! copy ctor
-  logger(const logger&) = default;
-  //! assignment operator
-  logger& operator=(const logger&) = default;
-
 public:
   //!
   //! debug logging
